@@ -6,18 +6,23 @@ body {
     font-size: 20px;
 }
 
-h1{color: pink;
+h1{font-size: 50px;
 
 }
 
 
-h2{
-    color: blue;
+span{
+    font-size: 30px;
 }
 
-.prvi {
+.yellow-text {
     color:yellow;
 }
+
+.underline {
+    text-decoration:underline;
+}
+
 
 #drugi{
     color: brown;
@@ -30,5 +35,21 @@ img {
 
 div > img {
     width: 50px;
-
 }
+
+
+#Mario {
+    color: blue;
+}
+
+span {
+    color: palevioletred;
+}
+
+.yellow {
+    color: yellow;
+}
+.purple{
+color: purple;
+}
+
