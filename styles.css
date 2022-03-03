@@ -72,3 +72,31 @@ li:first-child {
 li:last-child {
     color: purple;
 }
+
+p::before{
+    content: "";
+    width: 80px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    bottom: 16px;
+}
+
+li:first-child {
+    color: brown;
+}
+
+li:last-child {
+    color: purple;
+}
+
+@media screen and (min-width: 375px) {
+  li {
+      color: green;
+  }
+  @media screen and (min-width: 768px) {
+    li {
+        color: green;
+    }
+}
