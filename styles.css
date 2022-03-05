@@ -1,102 +1,27 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 /* ovo su stilovi za <body>elemente i unutar njega */
 body {
-    color: red;
-    margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    font-size: 20px;
-    height: 2000px;
+  color: red;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  height: 2000px;
 }
 
-h1 {
-    background-color: green;
-    height: 200;
-    width: 250;
-    padding: 30px;
-    border: 10px solid orange;
-    margin: 0 0 0 20% ; 
-    font-size: 2em;
-    position: fixed;
-    top: 0;
-    transition: background-color 0.3s ease, color 0,3s, border-color 0,3 ease, height o,3 ease;
-
+input,
+textarea,
+button {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-h1:hover{
-    background-color: pink;
-    color: black;
-    border-color: brown;
-    height: 300px;
+.navigation {
+  display: flex;
+  background-color: yellow;
+  padding: 20px;
 }
 
-span {
-    position:absolute;
-    height: 100px;
-    width: 200px;
-    display: inline-block;
-    background-color: pink;
-    text-align: center;
-    top: 50px;
-    left: 50px;
-    transform: translate(-50%, -50% );
-    transform: translatey(-50%);
-
-
-}
-
-
-a {
-    display: block;
-    width:100px ;
-    height: 50px;
-    background-color: green;
-}
-
-
-.box {
-    background-color: blue;
-    width: 400px;
-    height: 400px;
-    margin: 50;
-}
-
-
-
-li:first-child {
-    color: brown;
-}
-
-li:last-child {
-    color: purple;
-}
-
-p::before{
-    content: "";
-    width: 80px;
-    height: 10px;
-    background-color: red;
-    display: inline-block;
-    position: absolute;
-    bottom: 16px;
-}
-
-li:first-child {
-    color: brown;
-}
-
-li:last-child {
-    color: purple;
-}
-
-@media screen and (min-width: 375px) {
-  li {
-      color: green;
-  }
-  @media screen and (min-width: 768px) {
-    li {
-        color: green;
-    }
+.link {
+  background-color: orange;
 }
