@@ -18,10 +18,21 @@ button {
 
 .navigation {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   background-color: yellow;
   padding: 20px;
+  height: 300px;
 }
 
 .link {
   background-color: orange;
+}
+
+.flex-center-both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
